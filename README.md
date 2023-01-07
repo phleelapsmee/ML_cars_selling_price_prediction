@@ -41,10 +41,12 @@ Feature Engineering
 
 Реализация web сервиса на FastApi 
 -----------------------
-+ Загрузка одного объекта в формате json и получение предсказания цены для него (Смотреть скриншоты в папке screenshots)
-Пример: {"name": "Lexus ES 300h", "year": 2019, "km_driven": 20000, "fuel": "Petrol", "seller_type": "Dealer", "transmission": "Automatic", "owner": "First Owner", "mileage": "22.37 kmpl", "engine": "2487 CC", "max_power": "214.56 bhp", "torque": "202Nm@ 3600-5200rpm", "seats": 5.0}
++ Загрузка одного объекта в формате json и получение предсказания цены для него (Смотреть скриншоты в папке fastapi_part/screenshots)
+
+Пример: ```{"name": "Lexus ES 300h", "year": 2019, "km_driven": 20000, "fuel": "Petrol", "seller_type": "Dealer", "transmission": "Automatic", "owner": "First Owner", "mileage": "22.37 kmpl", "engine": "2487 CC", "max_power": "214.56 bhp", "torque": "202Nm@ 3600-5200rpm", "seats": 5.0}```
 (Смотреть результат в папке screenshots)
-+ Загрузка нескольких объектов в формате csv и получение файла с предсказанием в формате csv (Смотреть скриншоты в папке screenshots)
++ Загрузка нескольких объектов в формате csv и получение файла с предсказанием в формате csv (Смотреть скриншоты в папке fastapi_part/screenshots)
+
 Пример: Загрузили test_df.csv -> Получили test_price_prediction.csv (Смотреть файлы в папке data)
 
 Выыод 
